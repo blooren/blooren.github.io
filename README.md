@@ -1,5 +1,5 @@
 # Welcome to my blog📷
-## I am Daniel, _aka_ Blooren, I am 20 years old, and this is my first step into my front end developer path.
+## I am Daniel, _aka_ Blooren, I am 21 years old, and this is my first step into my front end developer path.
 
 
 Thanks to Platzi, I can create this awesome repository.

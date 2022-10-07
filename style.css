@@ -46,10 +46,12 @@ header .logo{
     color: black;
 }
 main{
+    height: 70vh;
     justify-content: space-around;
     align-items: center;
 }
 main .profileMain{
+    max-width: 70%;
     border-radius: 50%;
     border: 5px solid #a3363d;
 }

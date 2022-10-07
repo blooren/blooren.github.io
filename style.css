@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,13 +10,13 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     font-family: sans-serif;
-    background-color: blueviolet;
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
-
 header{
-    display: flex;
     flex-wrap: wrap;
     color: white;
     background-color: rgba(0, 0, 0, 0.97);
@@ -25,6 +27,8 @@ header{
 }
 header .logo{
     font-size: 3.3rem;
+    color: #a3363d;
+    font-family: 'Silkscreen';
  }
 .navbar{
    /* overflow: hidden; */
@@ -42,22 +46,21 @@ header .logo{
     color: black;
 }
 main{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 30px;
+    margin: 0 20vh 0 20vh;
     justify-content: space-around;
     align-items: center;
 }
-main img{
-    max-width: 40%;
+main .profileMain{
+    min-width: 30%;
+    max-width: 50%;
+    border-radius: 50%;
+    border: 5px solid #a3363d;
 }
 
 main span{
     width: 30px;
 }
-section{
-    display: flex;
-}
+
 section img{
     max-width: 35%;
 }
@@ -67,4 +70,23 @@ section#bio{
 }
 section#projects{
 scroll-behavior: smooth; 
+}
+
+footer{
+    display: flex;
+    background-color: #a3363d;
+    font-size: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+footer .sm{
+}
+
+ ul li.sm-items{
+    position: relative;
+    display: inline-block;
+    margin: 0px 0.5rem 0 0.5rem;
 }

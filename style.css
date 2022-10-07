@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    font-family: 'Silkscreen';
     scroll-behavior: smooth;
     
 }
@@ -46,16 +47,21 @@ header .logo{
     color: black;
 }
 main{
+    display: flex;
+    flex-direction: column;
     height: 70vh;
     justify-content: space-around;
     align-items: center;
+
 }
 main .profileMain{
-    max-width: 70%;
+    width: 250px;
     border-radius: 50%;
     border: 5px solid #a3363d;
 }
-
+main h1,h2{
+    color: rgb(72, 170, 72);
+}
 main span{
     width: 30px;
 }
@@ -63,9 +69,14 @@ main span{
 section img{
     max-width: 35%;
 }
-section#bio{
+section.bio{
     justify-content: center;
     align-items: center;
+    margin: 40px;
+}
+
+.bio-about{
+    color: aqua;
 }
 section#projects{
 scroll-behavior: smooth; 
@@ -74,7 +85,7 @@ scroll-behavior: smooth;
 footer{
     display: flex;
     background-color: #a3363d;
-    font-size: 2rem;
+    font-size: 1.5rem;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 10px;

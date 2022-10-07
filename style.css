@@ -46,13 +46,10 @@ header .logo{
     color: black;
 }
 main{
-    margin: 0 20vh 0 20vh;
     justify-content: space-around;
     align-items: center;
 }
 main .profileMain{
-    min-width: 30%;
-    max-width: 50%;
     border-radius: 50%;
     border: 5px solid #a3363d;
 }
@@ -82,8 +79,8 @@ footer{
 
 }
 
-footer .sm{
-}
+/* footer .sm{
+} */
 
  ul li.sm-items{
     position: relative;

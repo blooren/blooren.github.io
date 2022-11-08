@@ -30,10 +30,8 @@ header .logo{
     font-size: 3.3rem;
     color: #a3363d;
     font-family: 'Silkscreen';
+    transition: 0.2s ease-in-out;
  }
-.navbar{
-   /* overflow: hidden; */
-}
 
 .navbar a{
     color: white;
@@ -91,9 +89,6 @@ footer{
     padding: 10px;
 
 }
-
-/* footer .sm{
-} */
 
  ul li.sm-items{
     position: relative;

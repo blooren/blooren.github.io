@@ -11,8 +11,8 @@ function verticalStatus(){
 }
 
 function myFunction() {
-    if (window.pageYOffset <= 0) {
-    logo.style.color="red"
+    if (window.pageYOffset <= 96) {
+    logo.style.color="#a3363d"
     logo.innerHTML = "Blooren"
 } else {
     logo.style.color="blue";

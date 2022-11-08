@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+:root{
+    --logo: #a3363d;
+}
 
 *{
     margin: 0;
@@ -28,7 +31,7 @@ header{
 }
 header .logo{
     font-size: 3.3rem;
-    color: #a3363d;
+    color: var(--logo);
     font-family: 'Silkscreen';
     transition: 0.2s ease-in-out;
  }
@@ -55,7 +58,7 @@ main{
 main .profileMain{
     width: 250px;
     border-radius: 50%;
-    border: 5px solid #a3363d;
+    border: 5px var(--logo);
 }
 main h1,h2{
     color: rgb(72, 170, 72);

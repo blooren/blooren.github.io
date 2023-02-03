@@ -15,5 +15,3 @@ _This blog is por testing  purposes, here I experiment with the README file._
 * Chrome 
 * Firefox
 * Brave
-
-* Love is all you need

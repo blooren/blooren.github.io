@@ -1,11 +1,12 @@
 const logo = document.getElementById("blooren");
 document.onscroll = function(){ 
     var pos = getVerticalScrollPercentage(document.body)
-    if(pos>=80){
+    if(pos>=95){
         // logo.style.color="blue";
         logo.innerHTML = "Blooren/>"
-    }else{
-        logo.style.color="#a3363d";
+        logo.style.color="black";
+      }else{
+        logo.style.color="white";
         logo.innerHTML = "Blooren"
     }
   }
